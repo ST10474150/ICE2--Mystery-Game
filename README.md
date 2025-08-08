@@ -1,11 +1,50 @@
-# Sample Snack app
+Mystery Number Challenge (ICE2)
+- Iyad Hassim - ST10474150  
+- Jāhnavi Soni - ST10495009
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Application Details
+The Mystery Number Challenge is a simple guessing game where players try to guess a randomly generated number between 1 and 100. Users enter guesses and receive feedback until they guess correctly.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Features
+- Random number generation between 1 and 100.
+- Feedback on whether guess is too low, too high, or correct.
+- Guess count tracker.
+- Restart game functionality.
+- Built with `useState`, `TouchableHighlight`, and React Native core components
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+App Flow
+1. App generates a random number at start.
+2. User enters a guess and submits it.
+3. App gives feedback and updates guess count.
+4. User can restart the game any time.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Screenshots
+![IMG_6540](https://github.com/user-attachments/assets/e9a6be72-154a-43fc-a70f-3132a478a47c)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+
+![IMG_6541](https://github.com/user-attachments/assets/d636deee-9223-48a6-8f49-6069a3b0752b)
+
+
+
+![IMG_6542](https://github.com/user-attachments/assets/30834ae4-29b9-4ae8-bbfd-34022a21b953)
+
+
+Reflection
+
+Design
+We based the layout on a clean and centered mobile-friendly interface with easy inputs and buttons.
+
+Challenges
+- Managing state changes after each guess.
+- Resettig the game properly on restart.
+- Validating input and ensuring it was a number between 1 and 100.
+
+Learnings
+- Using `useState` to manage multiple values.
+- Creating simple, user-friendly layouts in React Native.
+- Handling mobile input events and using conditional logic.
+
+Teamwork
+We divided tasks like layout, logic, and styling. Collaboration was smooth. Next time, we’d test earlier to catch issues faster.
+Repository Link:
+
